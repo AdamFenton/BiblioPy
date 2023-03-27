@@ -1,0 +1,156 @@
+<!doctype html>
+<head>
+<title>Example</title>
+
+<style>
+body{
+        background-image: url("{{ url_for('static', filename='jupiterAtmos.jpg') }}");
+        background-attachment: fixed;
+        background-position: center;
+    }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  }
+.grid img {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 100%;
+}
+</style>
+</head>
+<main class="grid">
+
+  <img src={{ url_for('static', filename='thumbnails/Adams_9780330491235.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Adams_9780330491204.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Adams_9780330491228.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Adams_9780330491198.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Adams_9780330491211.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Alexander_9781782275404.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Atwood_9780099740919.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Austen_9780140620757.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Burgess_9780140032192.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Bythell_9781788162302.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Bythell_9781781258637.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Chbosky_9781847394071.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Child_9780553826166.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Clancy_9780140274066.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Clancy_9781405915458.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Clancy_9780006479741.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Clancy_9780425269398.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Clancy_9780006471165.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Clancy_9780425269404.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Clancy_9780006479758.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Clancy_9780425240335.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Clancy_9780006177302.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Collins_9780141389431.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Cussler_9780751505030.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/D._9780241950432.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Dickens_9781853260049.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Diop_9781782277538.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Dumas_9781853267338.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Easton_9780330536301.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Finch_9780007551279.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Flynn_9780753827666.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Golding_9780571191475.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Green_9780141345659.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Green_9780141346090.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Green_9780007523160.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Harris_9780099532934.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Harris_9780749309428.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Harris_9780099532941.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Hawkins_9780552779777.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Hayes_9780552160964.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Hemingway_9780099908609.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Herbert_9780450038280.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Herbert_9780450021275.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Herbert_9780330376181.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Herbert_9780340960196.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Herbert_9780230706965.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Herbert_9780330376297.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Herbert_9780330411677.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Herbert_9780450045462.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Herbert_9780330376150.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Hilary_9781472207692.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Hill_9780575099999.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Hill_9780575130739.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Hodgson_9781444775433.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Hosseini_9781408842454.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Hosseini_9781408824856.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Ibsen_9781604594560.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Ibsen_9781408106020.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/J._9781784161644.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/James_9780330546010.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/James_9781509860180.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Joyce_9781840226355.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/K._9781408855911.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/K._9781408855928.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/K._9781408855904.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/K._9781408855898.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/K._9780141186672.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/K._9781408855942.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/K._9781408855935.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/K._9781408855959.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Katoka_9781421555485.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Katsu_9780857503640.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/King_9781444707830.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/King_9780450537370.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/King_9780450411434.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/King_9780450392498.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/King_9781529355390.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/King_9780340769980.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/King_9780450524684.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/King_9780340738917.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/King_9780340770702.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/King_9780340977163.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/King_9780340992562.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/La_9781785762819.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Le_9780141198286.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/M._9780099540540.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/M._9780099289524.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/May_9780857053961.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/May_9781529411690.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/McCarthy_9781509852024.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Miller_9780141189970.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Morgan_9780575081246.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/North_9780356502588.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/OFarrell_9781472223821.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Ohba_9781421539652.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/P._9780008446086.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Pitcher_9781780620312.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Pratchett_9781473200135.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Pratchett_9781473205321.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Pratchett_9781473200210.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Pratchett_9780552131063.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Pratchett_9781473200104.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Pratchett_9781473200166.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Pratchett_9781473200203.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Pratchett_9781473205338.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/R._9780007447848.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/R._9780007466061.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/R._9780007447862.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/R._9780007448036.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/R._9780261102309.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/R._9780007447855.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/R._9780007466078.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Ronald_9780007525492.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Roth_9780099478560.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Rowell_9781409120537.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Rowell_9781409120544.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Rowell_9781447263227.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Ryan_9780099460077.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Ryan_9780099460138.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Ryan_9780099492146.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/S._9780007341900.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Sapkowski_9780575082441.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Scott_9781853260414.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Sennen_9780007587865.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Shemilt_9781405915298.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Veste_9780007525584.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Walker_9780753818923.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Weir_9780091956141.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Wilde_9781853260155.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/Zusak_9781784162122.jpeg') }}/>
+  <img src={{ url_for('static', filename='thumbnails/le_9780141194523.jpeg') }}/></main>
